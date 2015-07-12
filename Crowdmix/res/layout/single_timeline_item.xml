@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:layout_margin="1dp"
+        android:layout_weight="0.98" >
+
+        <ImageView
+            android:id="@+id/ThumbIcon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="left|center_vertical"
+            android:clickable="false"
+            android:src="@drawable/profile_placehold" />
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/ThumbIcon"
+            android:text="-Name-"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Name"
+            android:layout_below="@+id/Name"
+            android:layout_marginTop="10dp"
+            android:text="-Datetime-"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tweet"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/ThumbIcon"
+            android:layout_marginTop="15dp"
+            android:hint="Twitt content"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+
+</LinearLayout>

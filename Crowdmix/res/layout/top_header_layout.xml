@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	         android:id="@+id/top_overlay_layout"
+	         android:layout_alignParentTop="true"
+	   android:layout_width="fill_parent"
+	   android:layout_height="60dp"
+	   android:background="@color/white" >
+  
+      	         	
+	       	<TextView
+			android:id="@+id/Top_bar_Logout_Button_Text"
+			android:layout_width="60dp"
+			android:layout_height="60dp"
+			android:layout_alignParentLeft="true"
+			android:gravity="left|center_vertical"
+			android:maxLines="1"
+			android:layout_centerVertical="true"
+			android:layout_marginLeft="15dp"
+			android:layout_marginRight="15dp"
+			android:text="Logout"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:textColor="@color/twitterbackground"
+			android:textSize="12sp"
+			android:textStyle="normal"
+			android:visibility="visible" />
+	       	
+	       	
+	       
+       	
+        	<TextView
+			android:id="@+id/Top_bar_title_text"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_centerInParent="true"
+			
+			android:gravity="center"
+			android:maxLines="1"
+			android:layout_marginLeft="50dp"
+			android:layout_marginRight="50dp"
+			android:text="@string/Home_TimeLine"
+			android:textStyle="bold"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textColor="@color/button_material_dark"
+			android:textSize="12sp"
+			 />
+        	
+       		 <ProgressBar
+			android:id="@+id/progressbar"
+			style="?android:attr/progressBarStyleSmallTitle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_toLeftOf="@+id/Top_bar_title_text"
+			android:visibility="gone" />
+       	
+	     
+        
+        	 
+        		<TextView
+			android:id="@+id/Top_bar_rigth_refresh_Text"
+			android:layout_width="50dp"
+			android:layout_height="60dp"
+			android:layout_alignParentRight="true"
+			android:maxLines="1"
+			android:gravity="center|right"
+			android:layout_centerVertical="true"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="15dp"
+			android:text="Refresh"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textColor="@color/twitterbackground"
+			android:textSize="12sp"
+			android:textStyle="normal"
+			android:visibility="visible" />
+        		
+        
+        			<TextView
+			android:id="@+id/Top_bar_rigth_post_Text"
+			android:layout_width="40dp"
+			android:layout_height="60dp"
+			android:layout_toLeftOf="@+id/Top_bar_rigth_refresh_Text"
+			android:maxLines="1"
+			android:gravity="center"
+			android:layout_centerVertical="true"
+			android:layout_marginLeft="1dp"
+			android:layout_marginRight="1dp"
+			android:text="Post"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textColor="@color/twitterbackground"
+			android:textSize="12sp"
+			android:textStyle="normal"
+			android:visibility="visible" />
+       
+      
+</RelativeLayout>
