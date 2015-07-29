@@ -8,7 +8,7 @@ import twitter4j.Status;
 import twitter4j.User;
 
 
-import com.crowdmix.twitter.R;
+import com.san.twitter.R;
 
 import TwitterService.LoadImageAsyncTask;
 import TwitterService.TwitterResponseData;
