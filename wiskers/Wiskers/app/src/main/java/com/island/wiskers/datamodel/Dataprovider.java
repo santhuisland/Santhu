@@ -39,7 +39,8 @@ public class Dataprovider {
             //Read from the Assets
             JSONObject lJson = readDataFromAssets(AppGlobals.mAppContext,AppGlobals.TEST_JSON_FILENAME);
             //Parse the Json data to Data models
-            mJsonBase = new bw(lJson);
+            if(lJson != null)
+                mJsonBase = new bw(lJson);
         }
 
         return mJsonBase;
