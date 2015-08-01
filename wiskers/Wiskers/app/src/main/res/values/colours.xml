@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <color name="holo_light_blue">#33B5E5</color>
+    <color name="lightGrey">#DDDDDD</color>
+   	<color name="grey">#545454</color>
+	<color name="white">#FFFFFF</color>
+	<color name="black">#181818</color>
+	<color name="green">#00FF00</color>
+	<color name="orange">#FF6300</color>
+	<color name="red">#FF0000</color>
+	<color name="light_green">#A4C639</color>
+	<color name="divider_colour">#313031</color>
+	<color name="off_black">#181818</color>
+	<color name="unselected_grey">#595959</color>
+	<color name="transparent">#00000000</color>
+	<color name="blue">#1C3F95</color>
+	<color name="twitterbackground">#0084B4</color>
+</resources>
+

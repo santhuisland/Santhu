@@ -1,0 +1,142 @@
+{
+  "cats": [
+    {
+      "breed": "exotic shorthair",
+      "legs": 4,
+      "image": {
+        "xxhdpi": "exotic_shorthair",
+        "xhdpi": "exotic_shorthair",
+        "hdpi": "exotic_shorthair",
+        "mdpi": "exotic_shorthair",
+        "ldpi": "exotic_shorthair"
+      },
+      "prefered-food": "packaged tuna",
+      "colour": "#55gg00",
+      "size": "medium",
+      "whiskers": 12
+    },
+    {
+      "breed": "bengal",
+      "legs": 4,
+      "image": {
+        "xxhdpi": "bengal",
+        "xhdpi": "bengal",
+        "hdpi": "bengal",
+        "mdpi": "bengal",
+        "ldpi": "bengal"
+      },
+      "prefered-food": "packaged tuna",
+      "colour": "#bb00hh",
+      "size": "small",
+      "whiskers": 24
+    },
+    {
+      "breed": "bombay",
+      "legs": 4,
+      "image": {
+        "xxhdpi": "bombay",
+        "xhdpi": "bombay",
+        "hdpi": "bombay",
+        "mdpi": "bombay",
+        "ldpi": "bombay"
+      },
+      "prefered-food": "packaged tuna",
+      "colour": "#225533",
+      "size": "tiny",
+      "whiskers": 128
+    },
+    {
+      "breed": "burmese",
+      "legs": 4,
+      "image": {
+        "xxhdpi": "burmese",
+        "xhdpi": "burmese",
+        "hdpi": "burmese",
+        "mdpi": "burmese",
+        "ldpi": "burmese"
+      },
+      "prefered-food": "special cat milk",
+      "colour": "#222222",
+      "size": "large",
+      "whiskers": 1024
+    },
+    {
+      "breed": "snowshoe",
+      "legs": 4,
+      "image": {
+        "xxhdpi": "snowshoe",
+        "xhdpi": "snowshoe",
+        "hdpi": "snowshoe",
+        "mdpi": "snowshoe",
+        "ldpi": "snowshoe"
+      },
+      "prefered-food": "chicken teriyaki",
+      "colour": "#11bbee",
+      "size": "extra-large",
+      "whiskers": 500
+    },
+    {
+      "breed": "siamese",
+      "legs": 4.5,
+      "image": {
+        "xxhdpi": "siamese",
+        "xhdpi": "siamese",
+        "hdpi": "siamese",
+        "mdpi": "siamese",
+        "ldpi": "siamese"
+      },
+      "prefered-food": "special cat milk",
+      "colour": "#4a6e8c",
+      "size": "gigantic",
+      "whiskers": 1
+    },
+    {
+      "breed": "turkish van",
+      "legs": 1,
+      "image": {
+        "xxhdpi": "turkish_van",
+        "xhdpi": "turkish_van",
+        "hdpi": "turkish_van",
+        "mdpi": "turkish_van",
+        "ldpi": "turkish_van"
+      },
+      "prefered-food": "packaged salmon",
+      "colour": "#123456",
+      "size": "smurf-size",
+      "whiskers": 0
+    },
+    {
+      "breed": "maine coon",
+      "legs": 8,
+      "image": {
+        "xxhdpi": "maine_coon",
+        "xhdpi": "maine_coon",
+        "hdpi": "maine_coon",
+        "mdpi": "maine_coon",
+        "ldpi": "maine_coon"
+      },
+      "prefered-food": "special cat milk",
+      "colour": "#654321",
+      "size": "really-large",
+      "whiskers": -10
+    }
+  ],
+  "food": [
+    {
+      "name": "packaged tuna",
+      "package": "tin"
+    },
+    {
+      "name": "packaged salmon",
+      "package": "tin"
+    },
+    {
+      "name": "chicken teriyaki",
+      "package": "plate"
+    },
+    {
+      "name": "special cat milk",
+      "package": "tetabrick"
+    }
+  ]
+}

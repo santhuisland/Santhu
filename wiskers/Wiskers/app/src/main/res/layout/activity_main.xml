@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <com.island.wiskers.SwitchableViewPager
+        android:id="@+id/photoPage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/bottomlayout"
+        android:background="@drawable/notification_template_icon_bg">
+    </com.island.wiskers.SwitchableViewPager>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignWithParentIfMissing="false"
+        android:id="@+id/bottomlayout"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Food:"
+            android:id="@+id/preferedfoodLabel"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="right"
+            style="@style/TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="special cat milk"
+            android:id="@+id/preferedfood"
+            android:layout_above="@+id/sizelabel"
+            android:layout_toRightOf="@+id/preferedfoodLabel"
+            android:layout_toEndOf="@+id/preferedfoodLabel"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Size:"
+            android:id="@+id/sizelabel"
+            android:layout_below="@+id/preferedfoodLabel"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="right"
+            style="@style/TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="small"
+            android:id="@+id/size"
+            android:layout_alignBottom="@+id/sizelabel"
+            android:layout_alignLeft="@+id/preferedfood"
+            android:layout_alignStart="@+id/preferedfood" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Whiskers:"
+            android:id="@+id/whiskerslabel"
+            android:gravity="right"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_below="@+id/sizelabel"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1111"
+            android:id="@+id/whiskers"
+            android:layout_above="@+id/packagelabel"
+            android:layout_alignLeft="@+id/size"
+            android:layout_alignStart="@+id/size" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Package:"
+            android:id="@+id/packagelabel"
+            android:gravity="right"
+            android:layout_below="@+id/whiskerslabel"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            style="@style/TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="tin"
+            android:id="@+id/foodpackage"
+            android:layout_alignBottom="@+id/packagelabel"
+            android:layout_alignLeft="@+id/whiskers"
+            android:layout_alignStart="@+id/whiskers" />
+    </RelativeLayout>
+</RelativeLayout>
