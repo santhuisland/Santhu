@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Weather Alert</string>
+    <string name="action_settings">Settings</string>
+    <string name="Empty_Favourates_text">No favourite cities added, please add new city to check weather report. </string>
+    <string name="default_city_text">unknown</string>
+    <string name="default_weather_text">Weather - unknown</string>
+    <string name="weather_text">Weather</string>
+
+    <string name="city_hint_text">Enter city</string>
+    <string name="countrycode_hint_text">Enter country code</string>
+    <string name="DELETE_Favourite_Header">Delete</string>
+    <string name="DELETE_Favourite_Conformation_Message">Are you sure you want to delete from favourite list?</string>
+
+    <string name="NO_Favourate_Text">No Favourite found,Please add new city.</string>
+    <string name="Fail_Response_Text">Oops something went wrong.</string>
+    <string name="NO_APPID_Response_Text">No Server App ID found.</string>
+    <string name="NO_Internet_Response_Text">Not able to connect to internet,please check the network connection.</string>
+
+
+</resources>

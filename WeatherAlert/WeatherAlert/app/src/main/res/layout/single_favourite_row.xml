@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border">
+
+        <ImageView
+            android:layout_width="@dimen/fav_thumb_icon_size"
+            android:layout_height="@dimen/fav_thumb_icon_size"
+            android:id="@+id/ThumbIcon"
+            android:src="@drawable/flag"
+            android:layout_gravity="left|center_vertical"
+            android:clickable="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fav_title_height"
+            android:layout_toRightOf="@+id/ThumbIcon"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="1dp"
+            android:clickable="false"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=""
+            android:id="@+id/CityText"
+            android:textColor="@color/colorAccent"
+            android:layout_alignRight="@+id/ThumbIcon"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="76dp"
+            />
+    </RelativeLayout>
+</LinearLayout>
